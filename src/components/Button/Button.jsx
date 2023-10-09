@@ -10,3 +10,4 @@ Button.prototype = {
   link: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
 };
+
