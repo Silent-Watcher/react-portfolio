@@ -9,13 +9,13 @@ header {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 header .header__overlay {
   background-image: linear-gradient(
     to top,
-    #fff 30%,
+    #fff 10%,
     rgba(105, 90, 166, 0.35) 99%,
     rgba(105, 90, 166, 0.5) 100%
   );
@@ -26,10 +26,9 @@ header .header__overlay {
   height: 100%;
 }
 header .header__intro {
-  position: absolute;
   display: flex;
-  flex-wrap: wrap;
-  top: 20%;
+  z-index: 2;
+  flex-wrap: wrap-reverse;
   align-items: center;
   justify-content: center;
   width: 60%;
@@ -37,7 +36,6 @@ header .header__intro {
 }
 header .header__intro :is(.header__intro_right, .header__intro_left) {
   text-align: center;
-  width: 50%;
 }
 header .header__intro .header__intro_left h1 {
   font-size: 2rem;

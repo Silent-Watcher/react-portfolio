@@ -18,9 +18,7 @@ export default function Header(){
                 <div className="header__intro_right">
                     <img className='avatar' src="imgs/atanavatar.png" alt="avatar" />
                 </div>
-              
             </div>
-            
         </header>
     )
 }
