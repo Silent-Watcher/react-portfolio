@@ -1,0 +1,8 @@
+{
+	"*.(js|ts)": [
+		"npm run lint",
+		"npm run prettier",
+		"npm run lint:language"
+	],
+	"*.(html|css|md)": ["npm run prettier", "npm run lint:language"]
+}
