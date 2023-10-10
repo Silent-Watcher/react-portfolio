@@ -1,10 +1,22 @@
 import './Title.css';
 
-export default function Title() {
+import propType from 'prop-types';
+
+export default function Title({ titleText, subtitle }) {
 	return (
 		<>
-			<p className="section-subtitle"></p>
-			<h2 className="section-title"></h2>
+			<p className="section-subtitle">{subtitle}</p>
+			<h2 className="section-title">{titleText}</h2>
 		</>
 	);
 }
+
+Title.propTypes = {
+	titleText: propType.string.isRequired,
+	subtitle: propType.string.isRequired,
+};
+
+Title.defaultProps = {
+	titleText: 'Title',
+	subtitle: 'Sub title',
+};

@@ -10,7 +10,7 @@ export default function Button({ link, name }) {
 	);
 }
 
-Button.prototype = {
+Button.propTypes = {
 	link: PropTypes.string.isRequired,
 	name: PropTypes.string.isRequired,
 };

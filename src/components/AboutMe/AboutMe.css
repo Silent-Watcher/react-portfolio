@@ -1,3 +1,23 @@
-div {
-	text-align: center;
+.section {
+	width: 80%;
+	margin: auto;
+}
+#About {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.about__section-right {
+	width: 50%;
+}
+.about__section-left > img {
+	width: 100%;
+	display: block;
+}
+.about__section-right {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }

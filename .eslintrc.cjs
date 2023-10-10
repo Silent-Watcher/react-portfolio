@@ -21,7 +21,6 @@ module.exports = {
 		eqeqeq: 'warn',
 		camelcase: 'error',
 		'no-console': 'warn',
-		'react/prop-types': 'off',
 	},
 };
 //  "react/prop-types"

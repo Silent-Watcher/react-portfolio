@@ -1,0 +1,8 @@
+.section-title {
+	font-size: 3rem;
+	color: var(--main-color);
+}
+.section-subtitle {
+	font-size: 1.2rem;
+	color: var(--third-color);
+}
