@@ -1,6 +1,4 @@
 {
-	"*.(js|ts|jsx)": [
-		"npm run lint"
-	],
+	"*.(js|ts|jsx)": ["npm run lint"],
 	"*.(html|css|md)": ["npm run prettier"]
 }
