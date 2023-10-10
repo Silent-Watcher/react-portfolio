@@ -1,55 +1,55 @@
 header {
-  width: 100vw;
-  height: 100vh;
-  background-image: url('../../../imgs/header.jpg');
-  background-repeat: no-repeat;
-  background-position: center -120px;
-  background-size: cover;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+	width: 100vw;
+	height: 90vh;
+	background-image: url('../../../imgs/header.jpg');
+	background-repeat: no-repeat;
+	background-position: center -120px;
+	background-size: cover;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
 }
 header .header__overlay {
-  background-image: linear-gradient(
-    to top,
-    #fff 10%,
-    rgba(105, 90, 166, 0.35) 99%,
-    rgba(105, 90, 166, 0.5) 100%
-  );
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+	background-image: linear-gradient(
+		to top,
+		#fff 10%,
+		rgba(105, 90, 166, 0.35) 99%,
+		rgba(105, 90, 166, 0.5) 100%
+	);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 header .header__intro {
-  display: flex;
-  z-index: 2;
-  flex-wrap: wrap-reverse;
-  align-items: center;
-  justify-content: center;
-  width: 60%;
-  color: var(--secondary-color);
+	display: flex;
+	z-index: 2;
+	flex-wrap: wrap-reverse;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+	color: var(--secondary-color);
 }
 header .header__intro :is(.header__intro_right, .header__intro_left) {
-  text-align: center;
+	text-align: center;
 }
 header .header__intro .header__intro_left h1 {
-  font-size: 2rem;
-  font-weight: bold;
+	font-size: 5rem;
+	font-weight: bold;
 }
 header .header__intro .header__intro_left p:nth-of-type(1) {
-  font-size: 1.4rem;
-  color: var(--third-color);
+	font-size: 3rem;
+	color: var(--third-color);
 }
 header .header__intro .header__intro_left p:nth-of-type(2) {
-  font-size: 1rem;
-  color: var(--third-color);
-  margin-bottom: 15px;
+	font-size: 2rem;
+	color: var(--third-color);
+	margin-bottom: 15px;
 }
 header .header__intro .header__intro_right .avatar {
-  width: 200px;
-  display: block;
+	width: 350px;
+	display: block;
 }

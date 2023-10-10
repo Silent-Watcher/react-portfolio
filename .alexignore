@@ -1,7 +1,7 @@
-#The Code of Conduct includes descriptions of harassment so it's not linted
-docs/code-of-conduct.md
+CODE_OF_CONDUCT.md
 node_modules
 .git
 .github
 dist
 .vscode/*
+banner.png

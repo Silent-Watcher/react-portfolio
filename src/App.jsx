@@ -1,17 +1,17 @@
-import './App.css'
+import './App.css';
 
-import Header from './components/Header/Header'
+import Header from './components/Header/Header';
+import Main from './components/Main/Main';
 
 // import Main from './components/Main/Main'
 
 function App() {
-
-  return (
-    <>
-      <Header/>
-      {/* <Main/> */}
-    </>
-  )
+	return (
+		<>
+			<Header />
+			<Main />
+		</>
+	);
 }
 
-export default App
+export default App;

@@ -1,12 +1,12 @@
 a.btn {
-    text-decoration: none;
-    padding: 5px 10px;
-    color: #fff;
-    border-radius: 3px;
-    background-color: var(--main-color);
-    font-size: .6rem;
-    transition: .3s ease;
+	text-decoration: none;
+	padding: 5px 10px;
+	color: #fff;
+	border-radius: 3px;
+	background-color: var(--main-color);
+	font-size: 1rem;
+	transition: 0.3s ease;
 }
-a.btn:hover{
-    background-color: var(--main-color-darker);
+a.btn:hover {
+	background-color: var(--main-color-darker);
 }
